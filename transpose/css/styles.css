@@ -10,7 +10,7 @@ URL: http://twitter.com/MizanME
 	1.1 GENERAL STYLES
 	1.2 PRE LOADER
 	1.3 ANCHOR
-	1.4 MISC FIXES  
+	1.4 MISC FIXES
 
 2. COMPONENTS (ELEMNTS USED IN MANY SECTION)
 	2.1 TYPOGRAPHY
@@ -24,38 +24,38 @@ URL: http://twitter.com/MizanME
 	    3.1.1 STICKY NAVIGATION
 	    3.1.2 ONLY LOGO
 	    3.1.3 INTRO
-	    
+
 	3.2 SECTION: CLIENTS LIST
-	
+
 	3.3 SECTION: SERVICES
-	
+
 	3.4 SECTION: LEFT / RIGHT BRIEF
-	
+
 	3.5 SECTION: STATS
-	
+
     3.6 SECTION: FEATURES
-    
+
     3.7 SECTION: PRICING TABLE
-    
+
     3.8 SECTION: SCREENSHOTS
-    
+
     3.9 SECTION: TIMELINE
-    
+
     3.10 SECTION: TEAM
-    
+
     3.11 SECTION: TESTIMONIALS
-    
+
     3.12 SECTION: CALL TO ACTION
-    
-    3.13 SECTION: CONTACT INFO 
-    
+
+    3.13 SECTION: CONTACT INFO
+
     3.14 SECTION: GOOGLE MAP
-    
+
     3.15 FOOTER
-  
+
 
 TO CHANGE RESPONSIVE FIXES, PELEASE CHECK css/responsive.css
- 
+
 TO CHANGE PRE_DEFINED COLORS. PLEASE CHECK css/colors/your_selected_color.css
 
 -----------------------------------------*/
@@ -66,7 +66,7 @@ TO CHANGE PRE_DEFINED COLORS. PLEASE CHECK css/colors/your_selected_color.css
 =========================================
 -----------------------------------------*/
 /*---------------------------------------
-   1.1 GENERAL STYLES                
+   1.1 GENERAL STYLES
 -----------------------------------------*/
 html {
 	font-size: 100%;
@@ -84,7 +84,7 @@ body {
 }
 
 /*---------------------------------------
-   1.2 PRE-LOADER              
+   1.2 PRE-LOADER
 -----------------------------------------*/
 .preloader {
 	position: fixed;
@@ -109,7 +109,7 @@ body {
 }
 
 /*---------------------------------------
-   2.3 ANCHOR AND BOLD TEXT           
+   2.3 ANCHOR AND BOLD TEXT
 -----------------------------------------*/
 a {
 	text-decoration: none;
@@ -122,7 +122,7 @@ a:hover {
 }
 
 /*---------------------------------------
-   1.4 MISC FIXES         
+   1.4 MISC FIXES
 -----------------------------------------*/
 @-webkit-viewport {
 	width: device-width;
@@ -204,7 +204,7 @@ li {
 =========================================
 -----------------------------------------*/
 /*---------------------------------------
-   2.1 TYPOGRAPHY      
+   2.1 TYPOGRAPHY
 -----------------------------------------*/
 /* HEADINGS */
 h1,
@@ -294,7 +294,7 @@ strong,
 }
 
 /*---------------------------------------
-   2.2 BUTTONS       
+   2.2 BUTTONS
 -----------------------------------------*/
 .standard-button {
 	border-radius: 3px;
@@ -381,7 +381,7 @@ strong,
 }
 
 /*---------------------------------------
-   2.3 BORDER AND LINE       
+   2.3 BORDER AND LINE
 -----------------------------------------*/
 .border-right {
 	border-right: 1px solid #eaeaea;
@@ -474,7 +474,7 @@ a.white-text:hover {
 }
 
 /*---------------------------------------
-   2.4 SECTION HEADERS       
+   2.4 SECTION HEADERS
 -----------------------------------------*/
 .section-header {
 	margin-top: 90px;
@@ -491,7 +491,7 @@ a.white-text:hover {
 }
 
 /*---------------------------------------
-   2.5 FORM ELEMENTS       
+   2.5 FORM ELEMENTS
 -----------------------------------------*/
 .input-box,
 .textarea-box {
@@ -531,7 +531,7 @@ a.white-text:hover {
 =========================================
 -----------------------------------------*/
 /*---------------------------------------
-   3.1 SECTION: HOME / HEADER         
+   3.1 SECTION: HOME / HEADER
 -----------------------------------------*/
 .header {
 	-webkit-background-size: cover;
@@ -605,7 +605,8 @@ a.white-text:hover {
 }
 
 .only-logo .navbar-header img {
-	max-width: 80px;
+	width: auto;
+	height: auto;
 }
 
 /* INTRO */
@@ -619,7 +620,7 @@ a.white-text:hover {
 }
 
 /*---------------------------------------
-   3.2 SECTION: CLIENTS LIST    
+   3.2 SECTION: CLIENTS LIST
 -----------------------------------------*/
 .client-logos {
 	border-bottom: 1px solid #dadfe3;
@@ -643,7 +644,7 @@ a.white-text:hover {
 }
 
 /*---------------------------------------
-   3.3 SECTION: SERVICES    
+   3.3 SECTION: SERVICES
 -----------------------------------------*/
 .single-service {
 	padding: 40px 35px 40px 35px;
@@ -668,7 +669,7 @@ a.white-text:hover {
 }
 
 /*---------------------------------------
-   3.4 SECTION: APP BRIEF    
+   3.4 SECTION: APP BRIEF
 -----------------------------------------*/
 .brief {
 	padding-top: 80px;
@@ -767,7 +768,7 @@ a.white-text:hover {
 }
 
 /*---------------------------------------
-   3.5 SECTION: STATS 
+   3.5 SECTION: STATS
 -----------------------------------------*/
 .stats {
 	-webkit-background-size: cover;
@@ -798,7 +799,7 @@ a.white-text:hover {
 }
 
 /*---------------------------------------
-   3.6 SECTION: UNIQUE FEATURES 
+   3.6 SECTION: UNIQUE FEATURES
 -----------------------------------------*/
 .unique-features {
 	padding-bottom: 100px;
@@ -841,7 +842,7 @@ a.white-text:hover {
 }
 
 /*---------------------------------------
-   3.7 SECTION: PRICING TABLE 
+   3.7 SECTION: PRICING TABLE
 -----------------------------------------*/
 .pricing {
 	padding-bottom: 30px;
@@ -923,7 +924,7 @@ a.white-text:hover {
 }
 
 /*---------------------------------------
-   3.8 SECTION: SCREENSHOTS   
+   3.8 SECTION: SCREENSHOTS
 -----------------------------------------*/
 .features {
 	-webkit-background-size: cover;
@@ -1233,4 +1234,3 @@ a.white-text:hover {
 .social-icons li a:hover .transparent-text-dark {
 	color: #313131;
 }
-
