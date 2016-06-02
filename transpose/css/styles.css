@@ -1234,3 +1234,10 @@ a.white-text:hover {
 .social-icons li a:hover .transparent-text-dark {
 	color: #313131;
 }
+
+/* Custom */
+
+.screenshot img {
+	margin: auto;
+	width: auto;
+}
